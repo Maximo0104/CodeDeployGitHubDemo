@@ -12,5 +12,6 @@ def about ():
 def comidas():
     return render_template('comidas.html')
 
+
 if __name__ == '__main__':
     app.run(debug = True)
