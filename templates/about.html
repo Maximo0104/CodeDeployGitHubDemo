@@ -2,42 +2,67 @@
 {% extends "layout.html" %}
 
 {% block content %}
-<h1>Ejercicios</h1>
+<h1>Ejercicios y rutinas</h1>
 <div class="row row-cols-1 row-cols-md-2">
     <div class="col mb-4">
       <div class="card">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="https://previews.123rf.com/images/decade3d/decade3d1605/decade3d160500044/58756557-m%C3%BAsculos-del-pecho-pectoral-mayor-y-menor-m%C3%BAsculos-anatom%C3%ADa-aislados-en-blanco-ilustraci%C3%B3n-3d.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">PECHO</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text">Ingresá para ver los videos.</p>
+          <a href="{{ url_for('pecho') }}" class="btn btn-primary">¡VAMOS!</a>
+        </div>
         </div>
       </div>
     </div>
     <div class="col mb-4">
       <div class="card">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="https://previews.123rf.com/images/decade3d/decade3d1605/decade3d160500030/58756539-los-m%C3%BAsculos-b%C3%ADceps-m%C3%BAsculos-anatom%C3%ADa-aislados-en-el-blanco-ilustraci%C3%B3n-3d.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">BRAZOS</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text">Ingresá para ver los videos.</p>
+          <a href="{{ url_for('brazos') }}" class="btn btn-primary">¡VAMOS!</a>
         </div>
       </div>
     </div>
     <div class="col mb-4">
       <div class="card">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="https://previews.123rf.com/images/bestdesign36/bestdesign361501/bestdesign36150101214/35622308-conceptual-muscular-anatom%C3%ADa-pecho-3d-aislada-en-el-fondo-blanco.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">ESPALDA</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          <h5 class="card-title">ABDOMEN</h5>
+          <p class="card-text">Ingresá para ver los videos.</p>
+          <a href="{{ url_for('abs') }}" class="btn btn-primary">¡VAMOS!</a>
         </div>
       </div>
     </div>
     <div class="col mb-4">
       <div class="card">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="https://us.123rf.com/450wm/bestdesign36/bestdesign361501/bestdesign36150100120/34952622-conceptual-muscular-anatom%C3%ADa-pecho-3d-aislada-en-el-fondo-blanco.jpg?ver=6" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">HOMBROS</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text">Ingresá para ver los videos.</p>
+          <a href="{{ url_for('hombros') }}" class="btn btn-primary">¡VAMOS!</a>
         </div>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="https://previews.123rf.com/images/decade3d/decade3d1605/decade3d160500008/58756516-dorsal-ancho-m%C3%BAsculos-anatom%C3%ADa-aislados-en-blanco-ilustraci%C3%B3n-3d.jpg" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">ESPALDA</h5>
+        <p class="card-text">Ingresá para ver los videos.</p>
+        <a href="{{ url_for('espalda') }}" class="btn btn-primary">¡VAMOS!</a>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card">
+      <img src="https://image.shutterstock.com/z/stock-photo-quadriceps-male-muscles-anatomy-muscle-isolated-on-white-d-illustration-489727177.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">PIERNAS</h5>
+        <p class="card-text">Ingresá para ver los videos.</p>
+        <a href="{{ url_for('piernas') }}" class="btn btn-primary">¡VAMOS!</a>
       </div>
     </div>
   </div>

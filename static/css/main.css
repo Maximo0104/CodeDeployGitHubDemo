@@ -1,7 +1,28 @@
 body{
     background: #0F2027;  /* fallback for old browsers */
-
-
-
-
+    color: white
+    font-family 'Lato', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.quitar-float{
+    float: none;
+}
+.espacio-arriba{
+    margin-top: 300px;
+}
+.espacio-derecha{
+    margin-left: 300px;
+}
+#principal{
+    width: 75%;
+    float: none;
+    margin-left: 200px;
+}
+.raleway{
+    font-family: 'Raleway', sans-serif;
+}
+.grande{
+    font-size: 4em;
 }
